@@ -1,6 +1,6 @@
 # svg2appicon
 
-python3 script to convert SVG to iOS .imageset
+python3 script to convert SVG to iOS AppIcon.appiconset
 
 ## Requirement
 
