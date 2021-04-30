@@ -128,6 +128,7 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-Docker/svg2imageset.py
+Docker/svg2appicon.py
+Docker/template*.json
 Docker/test
 

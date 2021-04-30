@@ -8,6 +8,8 @@ RUN pip3 install cairosvg
 
 COPY svg2appicon.py /usr/bin/
 
+COPY template_Contents.json /opt/svg2appicon/
+
 # change work directory
 WORKDIR /opt/svg2appicon
 
