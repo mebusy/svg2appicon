@@ -27,11 +27,26 @@ $ python3 ./svg2appicon.py test_arrow_circle_down.svg
 I will generate such files...
 
 ```bash
-test_arrow_circle_down.imageset
+AppIcon.appiconset
 ├── Contents.json
-├── test_arrow_circle_down.png
-├── test_arrow_circle_down_2x.png
-└── test_arrow_circle_down_3x.png
+├── icon_ios-marketing_1024x1024_1x.png
+├── icon_ipad_20x20_1x.png
+├── icon_ipad_20x20_2x.png
+├── icon_ipad_29x29_1x.png
+├── icon_ipad_29x29_2x.png
+├── icon_ipad_40x40_1x.png
+├── icon_ipad_40x40_2x.png
+├── icon_ipad_76x76_1x.png
+├── icon_ipad_76x76_2x.png
+├── icon_ipad_83.5x83.5_2x.png
+├── icon_iphone_20x20_2x.png
+├── icon_iphone_20x20_3x.png
+├── icon_iphone_29x29_2x.png
+├── icon_iphone_29x29_3x.png
+├── icon_iphone_40x40_2x.png
+├── icon_iphone_40x40_3x.png
+├── icon_iphone_60x60_2x.png
+└── icon_iphone_60x60_3x.png
 ```
 
 
