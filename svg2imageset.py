@@ -9,7 +9,7 @@ import json
 
 if __name__ == '__main__':
     if len(sys.argv) < 3:
-        print( "usage: python3 svg2imageset.py <path-2-svg> <icon-width> [outpath]" )
+        print( "usage: python3 svg2appicon.py <path-2-svg> <icon-width> [outpath]" )
         sys.exit(1)
 
     path_svg = sys.argv[1]

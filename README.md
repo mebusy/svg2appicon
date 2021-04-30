@@ -1,4 +1,4 @@
-# svg2imageset
+# svg2appicon
 
 python3 script to convert SVG to iOS .imageset
 
@@ -13,7 +13,7 @@ python3 script to convert SVG to iOS .imageset
 ## Usage
 
 ```bash
-usage: python3 svg2imageset.py <path-2-svg> <icon-width> [outpath]
+usage: python3 svg2appicon.py <path-2-svg> <icon-width> [outpath]
 
 @ icon-width: specify the output width of the @1x png image
 @ outpath:  `.` by default
@@ -22,7 +22,7 @@ usage: python3 svg2imageset.py <path-2-svg> <icon-width> [outpath]
 Example:
 
 ```bash
-$ python3 ./svg2imageset.py test_arrow_circle_down.svg  60 
+$ python3 ./svg2appicon.py test_arrow_circle_down.svg  60 
 ```
 
 I will generate such files...
@@ -41,7 +41,7 @@ test_arrow_circle_down.imageset
 Or just using the prebuilt docker image 
 
 ```bash
-$ docker run --rm -v `pwd`:/opt/svg2imageset/ mebusy/svg2imageset  test_arrow_circle_down.svg 60
+$ docker run --rm -v `pwd`:/opt/svg2appicon/ mebusy/svg2appicon  test_arrow_circle_down.svg 60
 ```
 
 

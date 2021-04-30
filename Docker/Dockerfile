@@ -6,11 +6,11 @@ MAINTAINER golden_slime@hotmail.com
 RUN apk add musl-dev gcc libffi-dev zlib-dev jpeg-dev cairo
 RUN pip3 install cairosvg
 
-COPY svg2imageset.py /usr/bin/
+COPY svg2appicon.py /usr/bin/
 
 # change work directory
-WORKDIR /opt/svg2imageset
+WORKDIR /opt/svg2appicon
 
-ENTRYPOINT ["svg2imageset.py"]
+ENTRYPOINT ["svg2appicon.py"]
 
 

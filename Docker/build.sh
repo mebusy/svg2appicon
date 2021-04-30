@@ -1,4 +1,4 @@
-cp ../svg2imageset.py .
-docker build  -t svg2imageset:latest .
+cp ../svg2appicon.py .
+docker build  -t svg2appicon:latest .
 
 
