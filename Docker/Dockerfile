@@ -8,7 +8,6 @@ RUN pip3 install cairosvg
 
 COPY entry.sh /usr/bin/
 
-# files in /opt/res should be copied back to /opt/svg2appicon
 COPY template_Contents.json /opt/res/
 COPY svg2appicon.py         /opt/res/
 

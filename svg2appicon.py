@@ -28,7 +28,11 @@ if __name__ == '__main__':
     os.makedirs( imageset_path )
 
     # print(cairosvg.svg2png.__doc__)
-    with open( "template_Contents.json" ) as fp:
+    path_tpl_content = "template_Contents.json"
+    if not os.path.exists( path_tpl_content ):
+        # for docker
+        path_tpl_content = os.path.join( "/opt/res", path_tpl_content )
+    with open( path_tpl_content ) as fp:
         contentsInfo = json.load(fp)
 
     # print(contentsInfo)
